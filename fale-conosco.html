@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="_css\form.css">
 </head>
 <script src="_javascript/funcoes.js"></script>
+<script>
+    function calc_total() {
+        var qtd = parseInt(document.getElementById('cQtd').value);
+        tot = qtd * 1500;
+        document.getElementById('cTot').value = tot;
+    }
+</script>
 
 <body>
     <div id="interface">
@@ -92,7 +99,7 @@
                                 min="0" max="10" step="2">Max</p>
                         <p>
                             <label for="cMsg">Mensagem:
-                                <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem."></textarea>
+                                <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem."></textarea>
                             </label></p>
                     </fieldset>
 
