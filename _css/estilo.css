@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 @font-face {
     font-family: 'FonteLogo';
     src: url("../_fonts/bubblegum-sans-regular.otf");
@@ -91,7 +92,7 @@ figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
-/* Formatação do Menu */ 
+/* Formatação do Menu */
 nav#menu {
     display: block;
 }
@@ -161,7 +162,7 @@ header#cabecalho-artigo h2 {
     margin: 0px;
 }
 
-header#cabecalho-artigo h3{
+header#cabecalho-artigo h3 {
     font-size: 12pt;
     color: #606060;
 }
@@ -169,6 +170,7 @@ header#cabecalho-artigo h3{
 .dir {
     text-align: right;
 }
+
 table#tabelaspec {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -230,6 +232,7 @@ aside#lateral h2 {
     color: #ffffff;
     padding: 5px;
 }
+
 footer#rodape {
     clear: both;
     border-top: 1px solid #606060;
